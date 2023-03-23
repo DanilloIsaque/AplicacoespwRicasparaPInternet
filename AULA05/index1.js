@@ -1,9 +1,6 @@
 // Variaveis para cor,fundo e nome
 var vcorfundo, vcorfonte, vnome
 
-// 
-
-
 // Função para definir a cor, foi utilizado o "if e o else" 
 
 function defineCor(op,cor){
@@ -25,7 +22,6 @@ function defineCor(op,cor){
 function gravar(){
     //armazena o nome entrando no formulario na variavel vnome
     vnome=document.getElementById('fnome').ariaValueMax;
-    var form = document.getElementById("fconf")
     //armazenando as informaçoes no localStorage
     localStorage.corfundo=vcorfundo
     localStorage.cortexto=vcorfonte
@@ -33,10 +29,3 @@ function gravar(){
 }
 
 //para finalziar, vai no formulario, no input do botao
-
-function monstrarOpcoes(){
-    var form = document.getElementById("fconf")
-    form.style.display="block"
-};
-
-
