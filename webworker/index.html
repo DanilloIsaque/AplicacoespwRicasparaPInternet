@@ -1,17 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>WebWorker</title>
+    <script src="script.js"></script>
+
 </head>
 <body>
-    <head>
-        <h1>Calculando com HTML</h1>
+        <!-- Calculando quadrado -->
+        <h2>Calculando com HTML</h2>
 
-        <input type="number" id="inputnumber1" placeholder="Digite um número">
-        <button onclick="calcularQuadrado">Calcular Quadrado</button>
-    </head>
+        <input type="number" id="inputNumber1" placeholder="Digite um número">
+        <button onclick="calcularQuadrado()">Calcular Quadrado</button>
+        <p id="resultado1"></p>
+
+        <!-- Linha de separação -->
+        <hr>
+
+        <!-- Calcula fatorial -->
+        <h2>Calcule sua idade</h2>
+
+        <!-- Chamada para o fatorial -->
+        <input type="number" id="inputNumber2" placeholder="Digite um número">
+        <button onclick="calcularFatorial()">Calcular Fatorial</button>
+        <p id="resultado2"></p>
+
 </body>
 </html>
